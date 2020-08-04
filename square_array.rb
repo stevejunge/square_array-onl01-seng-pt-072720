@@ -3,7 +3,7 @@ def square_array(numbers)
   new_numbers = []
   
   numbers.each do |number|
-    binding.pry
+    #binding.pry
     new_numbers.push(number ** 2 ) 
   end 
 end
